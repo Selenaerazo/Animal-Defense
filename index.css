@@ -1,0 +1,496 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-position-x: center;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+}
+
+
+.carousel-inner {
+    height: 400px;
+    left: 0%;
+    overflow: hidden;
+    
+    
+  }
+
+  .carousel-inner1 {
+    height: 670px;
+    overflow: hidden;
+    width: 100%;
+  }
+
+
+  
+
+  .carousel-caption1 {
+    position: absolute; 
+    right: 12%;
+    top: 300px; /* Cambiar bottom por top y los píxeles que necesites */
+    left: 5%;
+    z-index: 1;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-right: 500px;
+    text-align: left;
+    
+}
+
+
+
+.carousel-caption {
+  position: absolute; 
+  right: 15%;
+  top: 80px; /* Cambiar bottom por top y los píxeles que necesites */
+  left: 11%;
+  z-index: 1;
+  padding-top: 2px;
+  padding-bottom: 20px;
+  text-align: center;
+
+
+  
+}
+
+
+.containerinformacion{
+  width: 100%;
+  height: 700px;
+  display: flex;
+  margin: 0 auto;
+
+}
+
+.quienessomos{
+  width: 93%;
+position: relative;
+padding: 10px 20px 0px 30px;
+background: linear-gradient(rgba(161, 161, 161, 0.637) 0%, rgba(0, 0, 0, 0.151) 100%), url("../Imagenes/nick-abrams-IKtdqKatKPk-unsplash.jpg");
+height: 550px;
+background-position-y: 100%;
+background-position-x:center;
+}
+
+.quienessomos h3{
+font-size: 25px;
+padding: 15px 30px;
+position: absolute;
+text-shadow: 0px 4px 8px 0px rgb(240, 236, 236);
+margin-left: 250px;
+margin-top: 30px;
+
+}
+
+.quienessomos p{
+margin-top: 90px;
+
+justify-content: center;
+width: 100%;
+}
+
+.carousel-vision-mision{
+  width: 100%;
+}
+
+
+
+  
+    body { color: rgb(48, 47, 47);
+        background: rgb(235, 235, 235);
+        
+}
+
+    h1{ 
+  font-weight: bold;
+    }
+
+
+
+    /* whatsapp*/
+    .whatsapp {
+      position:fixed;
+      width:60px;
+      height:60px;
+      bottom:40px;
+      right:40px;
+      background-color:#25d366;
+      color:#FFF;
+      border-radius:50px;
+      text-align:center;
+      font-size:30px;
+      z-index:100;
+    }
+    
+    .whatsapp-icon {
+      margin-top:13px;
+    }
+    
+
+
+
+
+    
+    h2 { 
+       font-style: bolder;
+       color: black;
+       font-weight: bold;
+
+    }
+
+
+    
+    h3{ 
+        font-weight: bolder;
+    }
+    p{ font-size: 18px;
+        text-align: justify;
+    }
+    
+  
+    h5{
+      
+        background: rgba(0, 0, 0, 0);
+    }
+
+    ::selection{
+        background-color:rgb( 216 , 179 , 148);
+    }
+
+    
+
+        a:link{
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+        }
+        a:visited{
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            font-size: 20px;
+        }
+ 
+        
+      
+       
+
+
+ 
+
+
+
+.carousel.inner> .item > img{
+    margin: 0 auto;
+}
+
+
+/* historia*/
+.historia{
+  background: linear-gradient(rgba(161, 161, 161, 0.479) 0%, rgba(0, 0, 0, 0.349) 100%), url("../Imagenes/kelly-sikkema-bj3l739cwc8-unsplash.jpg");
+
+  height: 600px;
+  width: 100%;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  color: rgb(8, 8, 8);
+  
+  text-align: center;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ padding-top: 80px;
+
+}
+
+.descripcion{
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 100%;
+ justify-content: center;
+  font-size: 25px;
+  text-align: center;
+
+
+}
+
+
+.descripciont{
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 100%;
+ justify-content: center;
+  font-size: 35px;
+  text-align: center;
+
+
+}
+
+
+.descripcionx{
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 100%;
+ justify-content: center;
+  font-size: 40px;
+  text-align: center;
+margin-top: 80px;
+
+}
+
+.descripcion2{
+  width: 45%;
+  margin-left: 10px;
+  margin-top: 100px;
+  background:  rgba(102, 186, 235, 0.185);
+  height: 140px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 20px;
+}
+
+
+/* Nuestros servicios */
+
+.servicios{
+  background: linear-gradient(rgba(161, 161, 161, 0.226) 0%, rgba(0,0,0,.50) 100%), url("../Imagenes/stefan-kostoski-dMPQ6T08bX0-unsplash.jpg");
+
+  height: 400px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  color: rgb(8, 8, 8);
+  font-weight: bold;
+  text-align: center;
+  padding-top: 100px;
+}
+ 
+
+/* promocional */
+.promocional{
+  background: linear-gradient(rgba(161, 161, 161, 0.253) 0%, rgba(0, 0, 0, 0.363) 100%), url("../Imagenes/promo3.jpg") ;
+  height: 400px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  color: rgb(8, 8, 8);
+  font-weight: bold;
+  text-align: left;
+  padding-top: 100px;
+
+}
+
+
+.masinformacion{
+  background: linear-gradient(rgba(161, 161, 161, 0) 0%, rgba(0, 0, 0, 0.233) 100%), url("../Imagenes/annie-spratt-OWq8w3BYMFY-unsplash.jpg");
+
+  height: 300px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  color: rgb(8, 8, 8);
+  font-weight: bold;
+  text-align: center;
+  padding-top: 100px;
+
+}
+
+/* ---- ----- ----- acompañamiento ----- ----- ----- */
+
+.contieneacomp{
+  display: flex;
+  
+}
+
+
+.acompañamiento{
+  background: linear-gradient(rgba(161, 161, 161, 0.473) 0%, rgba(0, 0, 0, 0.062) 100%), url("../Imagenes/dog9.jpg") ;
+  height: 400px;
+  width: 33%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  color: rgb(8, 8, 8);
+  font-weight: bold;
+  text-align: center;
+  padding-top: 140px;
+  font-size: 20px;
+  display: flex;
+    cursor: pointer;
+  
+}
+
+.contieneacomp .acompañamiento:hover{
+  background-color: #2D2B2A;
+  transition: .5s
+}
+.descripcion3:hover {opacity: 1}
+
+
+.acompañamiento2{
+  background: linear-gradient(rgba(161, 161, 161, 0.473) 0%, rgba(0, 0, 0, 0.062) 100%), url("../Imagenes/hachi.jpeg") ;
+  height: 400px;
+  width: 33%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  color: rgb(8, 8, 8);
+  font-weight: bold;
+  text-align: center;
+  padding-top: 140px;
+  font-size: 20px;
+  display: flex;
+
+  
+}
+
+
+
+.acompañamiento3{
+  background: linear-gradient(rgba(161, 161, 161, 0.473) 0%, rgba(0, 0, 0, 0.062) 100%), url("../Imagenes/promocional.jpg") ;
+  height: 400px;
+  width: 33%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  color: rgb(8, 8, 8);
+  font-weight: bold;
+  text-align: center;
+  padding-top: 140px;
+  font-size: 20px;
+  display: flex;
+
+  
+}
+
+
+.videos{
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+.descripcion3{
+  text-align: center;
+  margin-left: 50px;
+
+}
+
+
+
+
+
+
+
+/* ---- ----- ----- Contenedor principal y flechas ----- ----- ----- */
+
+.listaalidos{
+  margin-bottom: 70px;
+}
+
+.listaaliados .contenedor-principal{
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.listaaliados .contenedor-principal .flecha-izquierda, .listaaliados .contenedor-principal .flecha-derecha{
+  position: absolute;
+  border: none;
+  background: rgb( 216 , 179 , 148);
+  font-size: 40px;
+  height: 40%;
+  top: calc(50% -25%);
+  line-height: 40px;
+  width: 50px;
+  color: seashell;
+  cursor: pointer;
+  z-index: 500;
+  transition: .2s ease all;
+}
+
+
+
+.listaaliados .contenedor-principal .flecha-izquierda:hover, .listaaliados .contenedor-principal .flecha-derecha:hover{
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.listaaliados .contenedor-principal .flecha-izquierda{
+  left: 0;
+}
+
+
+.listaaliados .contenedor-principal .flecha-derecha{
+  right: 0;
+  
+}
+
+/* ---- ----- ----- slider ----- ----- ----- */
+
+.listaaliados .contenedor-carousel{
+  width: 100%;
+  padding: 20px 0;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  
+}
+
+
+.listaaliados .contenedor-carousel .carousel{
+  display: flex;
+  flex-wrap: nowrap;
+ 
+}
+
+.listaaliados .contenedor-carousel .carousel .aliade{
+  min-height: 20%;
+  transition: .3s ease all;
+
+}
+
+.listaaliados .contenedor-carousel .carousel .aliade.hover{
+transform: scale(1.2);
+transform-origin: center;
+
+}
+
+.aliade img{ 
+  width: 250px;
+  height: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---- ----- ----- footer ----- ----- ----- */
+
+
+
+
+ 
+

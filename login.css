@@ -1,0 +1,111 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-position-x: center;
+    font-family:  'Oswald', sans-serif;
+    color: black;
+}
+
+body{
+  background-color: rgb(253, 253, 253);
+}
+
+.container{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    height: 95vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.textos{
+    width: 60%;
+    margin-right: 60px;
+}
+
+
+.textos p{
+    color: black;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+}
+
+.textos img{
+    margin-left: 40px;
+    margin-left: 78px;
+}
+
+.form{
+    width: 396px;
+    height: 349px;
+    border-radius: 10px;
+    border: 1px solid whitesmoke;
+    box-shadow: 0px 8px 32px gray;
+    background-color:rgb( 2 , 73 , 97);
+    padding: 20px 0 20px 0;
+    margin: 40px 0px 0px;
+    text-align: center;
+}
+
+.form input{
+    width: 364px;
+    height: 52px;
+    background: rgb(167, 168, 164);
+    padding: 14px 16px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: none;
+    border:1px solid rgb(124, 109, 109);
+}
+
+.form input:focus{
+    background: rgb(176, 130, 236);
+    outline: none;
+}
+
+.form .entrar{
+    width: 364px;
+    height: 60px;
+    background-color:rgb( 216 , 179 , 148);
+    padding: 14px 16px;
+    font-size: 22px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: none;
+    border:1px solid rgb(124, 109, 109);
+    color: rgb(29, 28, 28);
+}
+
+.form a{
+    display: inline-block;
+    text-decoration: none;
+    color: blanchedalmond;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.NuevaC{
+    width: 364px;
+    height: 60px;
+    background-color:rgb( 216 , 179 , 148);
+    padding: 14px 16px;
+    font-size: 22px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: none;
+    border:1px solid rgb(124, 109, 109);
+    color: rgb(29, 28, 28);
+}
+
+
+
+
+

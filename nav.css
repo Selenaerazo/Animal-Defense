@@ -1,0 +1,125 @@
+/*-- ----- -----NAVEGADOR PRINCIPAL ----- ----- ----- */
+
+header {
+  background-color: #f5f3f3;
+  height: 130px;
+  position: fixed;
+  width: 100%;
+  top: 60px;
+  left: 0;
+  z-index: 5 !important;
+
+}
+
+header .contenedor {
+	display: flex;
+	align-items: center;
+  margin-left: 130px;
+}
+
+
+
+header nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav li{
+    line-height: 3rem;
+}
+
+nav ul ul {
+    display: none;
+}
+
+nav > ul{
+    background-color: rgb(17, 175, 223);
+    display: table;
+    width: 100%;
+}
+
+
+nav >ul >li{
+    float: left;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 0 2.3em;
+    transition: 0.5s;
+}
+
+nav a:hover{
+    background: rgb(158, 158, 158);
+}
+/*-- ----- ---
+header nav a {
+  margin-left: 40px;
+	text-decoration: none;
+	margin-right: 20px;
+  font-size: 20px;
+
+}
+
+
+
+
+header nav a:hover{
+  background-color: rgb(223, 17, 17);
+
+}
+
+-- */
+header nav img{
+  margin-left: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+  
+    max-width: 992px;
+    margin: 0 auto;
+  }
+  
+  .nav-link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+  .logo {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+  }
+  
